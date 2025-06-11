@@ -1,6 +1,6 @@
 ## Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker and Speech Traits
 
-<p align="center">
+<p align="left">
   📄 <a href="https://arxiv.org/pdf/2505.14648"><strong>Paper</strong></a> &nbsp;|&nbsp;
   🤗 <a href="https://huggingface.co/collections/tiantiaf/vox-profile-6849966a82005eea95dc6274"><strong>HuggingFace Models</strong></a> &nbsp;|&nbsp;
 </p>
