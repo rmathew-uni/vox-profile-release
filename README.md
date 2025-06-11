@@ -1,6 +1,11 @@
 ## Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker and Speech Traits
 
-#### In this repo, we present Vox-Profile [[Paper Link](https://arxiv.org/pdf/2505.14648)], one of the first benchmarking efforts that systematically evaluate rich multi-dimensional speaker and speech traits from English-speaking voices. Our benchmark is presented below:
+<p align="center">
+  📄 <a href="https://arxiv.org/pdf/2505.14648"><strong>Paper</strong></a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/collections/tiantiaf/vox-profile-6849966a82005eea95dc6274"><strong>HuggingFace Models</strong></a> &nbsp;|&nbsp;
+</p>
+
+#### In this repo, we present Vox-Profile, one of the first benchmarking efforts that systematically evaluate rich multi-dimensional speaker and speech traits from English-speaking voices. Our benchmark is presented below:
 
 <div align="center">
  <img src="img/vox-profile.png" width="800px">
