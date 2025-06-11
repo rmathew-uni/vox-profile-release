@@ -101,6 +101,7 @@ print(english_accent_list[torch.argmax(wavlm_prob).detach().cpu().item()])
 | [wavlm-large-voice-quality](https://huggingface.co/tiantiaf/wavlm-large-voice-quality)   | ParaSpeechCaps | wavlm-large              | Yes              | 16              | See example  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/voice_quality_wavlm.py) |
 | [wavlm-large-influency](https://huggingface.co/tiantiaf/wavlm-large-speech-flow)   | SEP28K+FluencyBank | wavlm-large              | Yes              | 16              | Fluent/Disfluent (Specified Disfluency Types)  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/fluency_wavlm.py) |
 | [wavlm-large-categorical-emotion](https://huggingface.co/tiantiaf/wavlm-large-categorical-emotion)   | MSP-Podcast | wavlm-large              | No              | NA              | 8 Emotions + Other  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/categorized_emotion_wavlm.py) |
+| [wavlm-large-dim-emotion](https://huggingface.co/tiantiaf/tiantiaf/wavlm-large-msp-podcast-emotion-dim)   | MSP-Podcast | wavlm-large              | No              | NA              | Arousal/Valence/Dominance  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/dim_emotion_wavlm.py) |
 
 
 ### Whisper-Large V3 Models
@@ -111,6 +112,7 @@ Model Name  | Data  | Pre-trained Model | Use LoRa |  LoRa Rank Size  | Output |
 | [whisper-large-v3-voice-quality](https://huggingface.co/tiantiaf/whisper-large-v3-voice-quality)   | ParaSpeechCaps | whisper-large v3              | Yes              | 16              | See example  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/voice_quality_whisper.py) |
 | [whisper-large-v3-influency](https://huggingface.co/tiantiaf/whisper-large-v3-speech-flow)   | SEP28K+FluencyBank | whisper-large v3              | Yes              | 16              | Fluent/Disfluent (Specified Disfluency Types)  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/fluency_whisper.py) |
 | [whisper-large-v3-categorical-emotion](https://huggingface.co/tiantiaf/whisper-large-v3-msp-podcast-emotion)   | MSP-Podcast | whisper-large v3             | Yes              | 16              | 8 Emotions + Other  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/categorized_emotion_whisper.py) |
+| [whisper-large-v3-dim-emotion](https://huggingface.co/tiantiaf/whisper-large-v3-msp-podcast-emotion-dim)   | MSP-Podcast | whisper-large v3             | No              | NA              | Arousal/Valence/Dominance  | [Example](https://github.com/tiantiaf0627/vox-profile-release/blob/main/src/example/dim_emotion_whisper.py) |
 
 
 ### Labeling Scheme
