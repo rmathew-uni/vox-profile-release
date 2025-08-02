@@ -160,6 +160,11 @@ Human-evaluation results comparing synthetic speaking style prompts from Vox-Pro
 
 #### Responsible Use: Users should respect the privacy and consent of the data subjects, and adhere to the relevant laws and regulations in their jurisdictions when using Vox-Profile. We also advise the use of Vox-Profile under the RAIL license.
 
+❌ **Exemplar Out-of-Scope Use**
+- Clinical or diagnostic applications
+- Surveillance
+- Privacy-invasive applications
+
 #### If you like our work or use the models in your work, kindly cite the following. We appreciate your recognition!
 ```
 @article{feng2025vox,
